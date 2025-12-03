@@ -21,7 +21,7 @@ header {
 
 .photo {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff; /* SHORTENED HEX */
   border-style: hidden;
   padding: 4rem;
   padding-left: 15rem;
@@ -60,7 +60,7 @@ ul li {
 }
 
 .ul-list li {
-  margin-bottom: 16px;  
+  margin-bottom: 16px;
 }
 
 .highlight p {
