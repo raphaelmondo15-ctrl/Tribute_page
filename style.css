@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(210, 204, 204);
+  background-color: #d2cccc;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,7 @@ header {
 
 .photo {
   width: 100%;
-  background-color: white;
+  background-color: #ffffff;
   border-style: hidden;
   padding: 4rem;
   padding-left: 15rem;
@@ -54,7 +54,7 @@ header {
   width: 50%;
 }
 
- ul li {
+ul li {
   flex-direction: column;
   gap: 12px;
 }
