@@ -1,4 +1,3 @@
-
-
 # TRIBUTE PAGE
-## A tribute about Dr Norman 
+
+## A tribute about Dr. Norman
