@@ -1,86 +1,74 @@
-/** @format */
-
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background-color: rgb(210, 204, 204);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/* width: 60%; */
-	margin: auto;
+  background-color: rgb(210, 204, 204);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 header {
-	display: flex;
-	flex-direction: column;
-	gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .photo {
-	width: 100%;
-	background-color: white;
-	border-style: hidden;
-	padding: 4rem;
-    padding-left: 15rem;
-    padding-right: 15rem;
-	margin: auto;
+  width: 100%;
+  background-color: white;
+  border-style: hidden;
+  padding: 4rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  margin: auto;
 }
 
 .photo img {
-	width: 100%;
+  width: 100%;
 }
 
 .photo p {
-    padding-left: 8rem;
-    margin-top: 2rem;
+  padding-left: 8rem;
+  margin-top: 2rem;
 }
 
 .herotext {
-    width: 90%;
-	display: flex;
-	flex-direction: column;
-	gap: 32px;
-	margin-top: 32px;
-	justify-content: center;
-    align-items: center;
-    padding-left: 10rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
 }
 
-
 .ul-list {
-    display: flex;
-    /* padding-left: 5rem; */
-    width: 50%;
+  display: flex;
+  width: 50%;
 }
 
  ul li {
-    flex-direction: column;
-    gap: 12px;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .ul-list li {
-    margin-bottom: 16px;  
+  margin-bottom: 16px;  
 }
 
 .highlight p {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .name p {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
-
-
-
-
-
-
-
