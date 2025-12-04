@@ -11,10 +11,13 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header {
   display: flex;
+  text-align: center;
   flex-direction: column;
   gap: 16px;
 }
@@ -23,19 +26,18 @@ header {
   width: 100%;
   background-color: #fff;
   border-style: hidden;
-  padding: 4rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  margin: auto;
+  text-align: center;
+  margin: 0 20px;
 }
 
 .photo img {
-  width: 100%;
+  max-width: 800px;
+  margin: 30px;
 }
 
 .photo p {
-  padding-left: 8rem;
-  margin-top: 2rem;
+ text-align: center;
+  margin: 0 20px;
 }
 
 .herotext {
@@ -51,6 +53,7 @@ header {
 
 .ul-list {
   display: flex;
+  text-align: left;
   width: 50%;
 }
 
@@ -71,4 +74,12 @@ ul li {
 .name p {
   display: flex;
   gap: 12px;
+}
+
+.text p {
+  text-align: center;
+}
+
+a {
+  color: dodgerblue;
 }
