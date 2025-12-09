@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #d2cccc;
+  background-color: rgb(229, 229, 229);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,6 +43,7 @@ header {
 
 .herotext {
   width: 90%;
+  /* background-color: #bebcbc; */
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -54,6 +55,7 @@ header {
 
 .ul-list {
   display: flex;
+  /*background-color: #bebcbc;*/
   text-align: left;
   width: 50%;
 }
@@ -84,3 +86,7 @@ ul li {
 a {
   color: dodgerblue;
 }
+
+/* main {
+background-color: #bebcbc;
+} */
