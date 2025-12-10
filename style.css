@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 25px;
+}
+
+.photo {
+  width: 100%;
+  background-color: #fff;
+  border-style: hidden;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.photo img {
+  max-width: 800px;
+  margin: 30px;
+}
+
+.photo p {
+  text-align: center;
+  margin: 0 20px;
+  padding-bottom: 25px;
+}
+
+.herotext {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10rem;
+}
+
+.ul-list {
+  display: flex;
+  text-align: left;
+  width: 50%;
+}
+
+ul li {
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ul-list li {
+  margin-bottom: 16px;
+}
+
+.highlight p {
+  display: flex;
+  gap: 10px;
+}
+
+.name p {
+  display: flex;
+  gap: 12px;
+}
+
+.text p {
+  text-align: center;
+}
+
+a {
+  color: dodgerblue;
+}
+
+/* main {
+background-color: #bebcbc;
+} */
