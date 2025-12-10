@@ -43,7 +43,6 @@ header {
 
 .herotext {
   width: 90%;
-  /* background-color: #bebcbc; */
   display: flex;
   flex-direction: column;
   gap: 32px;
